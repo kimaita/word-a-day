@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word-a-Day App</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Word-a-Day</h1>
+        <p>Expand your vocabulary, one word at a time.</p>
+    </header>
+    <div class="content">
+        <section id="about">
+            <h2>About the App</h2>
+            <p>The Word-a-Day app helps you learn a new English word every day with definitions, usage examples, and quizzes to reinforce learning.</p>
+        </section>
+        <section id="features">
+            <h2>Features</h2>
+            <ul>
+                <li><i class="fas fa-bell"></i> Daily word notifications</li>
+                <li><i class="fas fa-book-open"></i> Usage examples and definitions</li>
+                <li><i class="fas fa-question-circle"></i> Daily quizzes</li>
+                <li><i class="fas fa-chart-line"></i> Progress tracking</li>
+                <li><i class="fas fa-cogs"></i> Customizable learning preferences</li>
+            </ul>
+        </section>
+        <section id="testimonials">
+            <h2>What Users Say</h2>
+            <blockquote>"This app has greatly improved my vocabulary!" - Alex</blockquote>
+            <blockquote>"I love the daily quizzes!" - Jamie</blockquote>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+        <a href="#" class="cta" onclick="getStarted()">Get Started</a>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
