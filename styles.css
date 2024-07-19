@@ -31,27 +31,30 @@ nav {
 }
 
 nav ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    gap: 10px;
+    	list-style: none;
+   	padding: 0;
+    	display: flex;
+    	justify-content: center;
+    	gap: 10px;
+	float: right;
 }
 
 nav ul li {
-    display: inline-block;
+    	display: inline-block;
 }
 
 nav ul li a {
-    color: white;
-    text-decoration: none;
-    padding: 0 15px;
-    transition: background-color 0.3s;
+   	color: white;
+    	text-decoration: none;
+    	padding: 0 15px;
+    	transition: background-color 0.3s;
+	margin: 0 10px;
+	line-height: 60px;
 }
 
 nav ul li a:hover,
 nav ul li a.cta-nav {
-    background-color: #45a049;
+    	background-color: #45a049;
 }
 
 .banner {
