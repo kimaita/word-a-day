@@ -14,7 +14,7 @@ body {
 
 header {
     background-color: #4CAF50;
-    color: white;
+    color: #fff;
     padding: 20px;
     position: sticky;
     top: 0;
@@ -26,8 +26,10 @@ header h1 {
 }
 
 nav {
-    margin-top: 10px;
-    position: right;
+   	margin-top: 10px;
+    	position: right;
+	width:68%;
+	float:right;
 }
 
 nav ul {
