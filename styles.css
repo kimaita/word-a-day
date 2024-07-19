@@ -7,6 +7,11 @@ body {
     text-align: center;
 }
 
+.wrapper {
+	width:1170px;
+	margin:0 auto;
+}
+
 header {
     background-color: #4CAF50;
     color: white;
@@ -47,6 +52,21 @@ nav ul li a {
 nav ul li a:hover,
 nav ul li a.cta-nav {
     background-color: #45a049;
+}
+
+.banner {
+	color:#fff;
+	display:grid;
+	place-items:center;
+	height:95vh;
+	background-image:url(img/code2.jpg);
+	background-size:cover;
+	background-position:center center;
+}
+		
+.banner h1{
+	font-size:70px;
+	font-family:'Arial', sans-serif;
 }
 
 .content {
