@@ -19,12 +19,13 @@ body {
 		
 header{
 	height:60px;
-	background:#030407;
-	padding:0 50px;
+    	background-color: #4CAF50;
+    	color: white;
+    	padding: 20px;
 }
 
 .logo{
-	width:30%;
+	width:40%;
     	float:left;
 	color:#fff;
 	font-weight:bold;
