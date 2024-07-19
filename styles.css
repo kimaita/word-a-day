@@ -1,8 +1,6 @@
 *{
 	margin:0;
 	padding:0;
-	list-style: none;
-	text-decoration: none;
 }
 
 body {
@@ -23,12 +21,11 @@ header{
 	height:60px;
 	background:#030407;
 	padding:0 50px;
-	width: 100%;
 }
 
 .logo{
 	width:30%;
-    float:left;
+    	float:left;
 	color:#fff;
 	font-weight:bold;
 	line-height:60px;
