@@ -1,43 +1,50 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9;
-    color: #333;
+    background-color: #000;
+    color: #fff;
     text-align: center;
 }
 
 header {
-    background-color: #4CAF50;
+    background: url('header-background.jpg') no-repeat center center;
+    background-size: cover;
     color: white;
     padding: 20px;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
+    position: relative;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header h1 {
     margin: 0;
+    position: absolute;
+    right: 20px;
 }
 
 nav {
-    margin-top: 10px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
 }
 
 nav ul {
     list-style: none;
     padding: 0;
+    margin: 0;
     display: flex;
-    justify-content: center;
     gap: 10px;
 }
 
 nav ul li {
-    display: inline-block;
+    display: inline;
 }
 
 nav ul li a {
-    color: #fff;
+    color: white;
     text-decoration: none;
     padding: 10px 15px;
     border-radius: 5px;
@@ -67,6 +74,7 @@ li {
     margin: 10px;
     padding: 10px;
     border-radius: 5px;
+    color: #333;
 }
 
 blockquote {
@@ -75,6 +83,7 @@ blockquote {
     margin: 20px;
     padding: 10px;
     border-left: 5px solid #4CAF50;
+    color: #333;
 }
 
 form {
@@ -91,6 +100,7 @@ form input, form textarea {
     max-width: 400px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    color: #333;
 }
 
 button {
@@ -119,7 +129,21 @@ button:hover {
 /* Responsive Design */
 @media (max-width: 600px) {
     header {
-        padding: 15px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 20px;
+    }
+
+    header h1 {
+        position: static;
+        align-self: flex-end;
+    }
+
+    nav {
+        position: static;
+        align-self: flex-start;
+        margin-bottom: 10px;
     }
 
     .content {
