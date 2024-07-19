@@ -16,7 +16,7 @@ header {
     height: 300px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: left;
 }
 
 header h1 {
@@ -29,6 +29,7 @@ nav {
     position: absolute;
     top: 20px;
     left: 20px;
+    float: right;
 }
 
 nav ul {
@@ -37,18 +38,19 @@ nav ul {
     margin: 0;
     display: flex;
     gap: 10px;
+    float: right;
 }
 
 nav ul li {
-    display: inline;
+    display: inline-block;
 }
 
 nav ul li a {
-    color: white;
+    color: #fff;
     text-decoration: none;
-    padding: 10px 15px;
-    border-radius: 5px;
-    transition: background-color 0.3s;
+    font-weight: bold;
+    margin: 0 10px;
+    line-height: 60px;
 }
 
 nav ul li a:hover,
