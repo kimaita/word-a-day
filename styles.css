@@ -5,93 +5,102 @@ body {
     background-color: #000;
     color: #fff;
     text-align: center;
+    box-sizing: border-box;
 }
 
-.wrapper{
-    width:1000px;
-    margin:0 auto;
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(1.png);
+    background-size: cover;
+    background-position: center;
+    height: 109vh;
 }
 
-header {
-    background: #030407;
-    color: #fff;
-    padding: 0 20px;
-    position: relative;
-    height: 60px;
-    display: flex;
-    justify-content: space-between;
-    align-items: left;
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
 }
 
-header h1 {
-    margin: 0;
-    position: absolute;
-    right: 20px;
-}
-
-nav {
-    position: absolute;
-    top: 20px;
-    left: 20px;
+.icon{
+    width: 200px;
     float: left;
+    height: 70px;
 }
 
-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    gap: 10px;
+.logo{
+    color: #4CAF50;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
     float: left;
+    padding-top: 10px;
 }
 
-nav ul li {
+.wrapper {
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+
+ul {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li {
+    list-style: none
     display: inline-block;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
 }
 
-nav ul li a {
+ul li a {
     color: #fff;
     text-decoration: none;
+    font-family: Times New Roman;
     font-weight: bold;
-    margin: 0 10px;
-    line-height: 60px;
+    transition: 0.4s east-in-out;
 }
 
-nav ul li a:hover,
-nav ul li a.cta-nav {
-    background-color: #45a049;
+ul li a:hover{
+    color: #4CAF50;
 }
 
 .banner {
 	color:#fff;
-	display:grid;
-	place-items:center;
-	height:95vh;
-	background-size:cover;
-	background-position:center center;
+	display: grid;
+	place-items: center;
+	height: 95vh;
+	background-size: cover;
+	background-position: center center;
 }
 		
 .banner h1 {
-	font-size:70px;
+	font-size: 70px;
 	font-family:'Roboto', sans-serif;
 }
 		
 .banner a{
-	text--decoration:none;
-	background:orangered;
-	display:inline-block;
-	color:#fff;
-	padding:10px 20px;
-	font-size:18px;
-	margin-top:25px;
-	border-radius:50px;
-	text-transform:uppercase;
+	text--decoration: none;
+	background: green;
+	display: inline-block;
+	color: #fff;
+	padding: 10px 20px;
+	font-size: 18px;
+	margin-top: 25px;
+	border-radius: 50px;
+	text-transform: uppercase;
 }
 		
 .content {
-	padding:5% 0;
-	background:#000;
-	color:#fff;
+	padding: 5% 0;
+	background: #000;
+	color: #fff;
 }
 
 .content p {
@@ -156,14 +165,18 @@ button:hover {
     background-color: #45a049;
 }
 
-.cta {
+.cta-nav {
     background-color: #4CAF50;
     color: white;
-    padding: 15px;
+    padding: 10px 20px;
     text-decoration: none;
+    border: 0;
+    outine: 0;
     border-radius: 5px;
-    display: inline-block;
-    margin-top: 20px;
+    display: flex;
+    font-weight: 500;
+    cursor: pointer;
+    align-items: center;
 }
 
 /* Responsive Design */
@@ -199,3 +212,5 @@ button:hover {
         width: 100%;
     }
 }
+
+
