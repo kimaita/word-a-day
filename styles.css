@@ -12,7 +12,7 @@
     background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(1.jpg);
     background-size: cover;
     background-position: center;
-    height: 109vh;
+    height: 100vh;
 }
 
 .navbar{
@@ -22,15 +22,15 @@
 }
 
 .icon{
-    width: 200px;
+    width: 180px;
     float: left;
-    height: 70px;
+    height: 60px;
 }
 
 .logo{
     color: #4CAF50;
     font-size: 35px;
-    font-family: Arial;
+    font-family: Times New Roman;
     padding-left: 20px;
     float: left;
     padding-top: 10px;
