@@ -13,10 +13,9 @@ body {
 }
 
 header {
-    background: url('header-background.jpg') no-repeat center center;
     background: #030407;
     color: #fff;
-    padding: 0 50px;
+    padding: 0 20px;
     position: relative;
     height: 60px;
     display: flex;
