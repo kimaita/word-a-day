@@ -7,6 +7,11 @@ body {
     text-align: center;
 }
 
+.wrapper{
+			width:1170px;
+			margin:0 auto;
+}
+
 header {
     background: url('header-background.jpg') no-repeat center center;
     background-size: cover;
