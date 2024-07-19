@@ -42,7 +42,7 @@ nav ul {
 }
 
 nav ul li {
-    	display: inline;
+    	display: inline-block;
 }
 
 nav ul li a {
