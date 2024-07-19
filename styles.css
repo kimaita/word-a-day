@@ -11,7 +11,15 @@ header {
     background-color: #4CAF50;
     color: white;
     padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
+
+header h1 {
+    margin: 0;
+}
+
 nav {
     margin-top: 10px;
 }
