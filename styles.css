@@ -1,118 +1,67 @@
-*{
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #000;
     color: #fff;
     text-align: center;
-    box-sizing: border-box;
 }
 
-.main{
-    width: 100%;
-    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(https://github.com/kimaita/word-a-day/edit/gh_page/images/1.jpg);
+header {
+    background: url('header-background.jpg') no-repeat center center;
     background-size: cover;
-    background-position: center;
-    height: 100vh;
+    color: white;
+    padding: 20px;
+    position: relative;
+    height: 300px;
 }
 
-.navbar{
-    width: 1200px;
-    height: 75px;
-    margin: auto;
-}
-
-.icon{
-    width: 180px;
-    float: left;
-    height: 60px;
-}
-
-.logo{
-    color: #4CAF50;
-    font-size: 35px;
-    font-family: Times New Roman;
-    padding-left: 20px;
-    float: left;
-    padding-top: 10px;
-}
-
-.header {
-    width: 400px;
-    float: left;
-    height: 70px;
-}
-
-
-ul {
-    float: left;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-ul li {
-    list-style: none
-    display: inline-block;
-    margin-left: 62px;
-    margin-top: 27px;
-    font-size: 14px;
-}
-
-ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-family: Times New Roman;
-    font-weight: bold;
-    transition: 0.4s east-in-out;
-}
-
-ul li a:hover{
-    color: #4CAF50;
-}
-
-h1 {
+header h1 {
     margin: 0;
     position: absolute;
+    top: 20px;
     right: 20px;
 }
 
-.banner {
-	color:#fff;
-	display: grid;
-	place-items: center;
-	height: 95vh;
-	background-size: cover;
-	background-position: center center;
-}
-		
-.banner h1 {
-	font-size: 70px;
-	font-family:'Roboto', sans-serif;
-}
-		
-.banner a{
-	text--decoration: none;
-	background: green;
-	display: inline-block;
-	color: #fff;
-	padding: 10px 20px;
-	font-size: 18px;
-	margin-top: 25px;
-	border-radius: 50px;
-	text-transform: uppercase;
-}
-		
-.content {
-	padding: 5% 0;
-	background: #000;
-	color: #fff;
+nav {
+    position: absolute;
+    top: 20px;
+    left: 20px;
 }
 
-.content p {
-	font-size:18px;
-	line-height:1.7;
-	margin-bottom:20px;
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 10px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover,
+nav ul li a.cta-nav {
+    background-color: #45a049;
+}
+
+.content {
+    padding: 20px;
 }
 
 h2 {
@@ -171,26 +120,20 @@ button:hover {
     background-color: #45a049;
 }
 
-.cta-nav {
+.cta {
     background-color: #4CAF50;
     color: white;
-    padding: 10px 20px;
+    padding: 15px;
     text-decoration: none;
-    border: 0;
-    outine: 0;
     border-radius: 5px;
-    display: flex;
-    font-weight: 500;
-    cursor: pointer;
-    align-items: center;
+    display: inline-block;
+    margin-top: 20px;
 }
 
 /* Responsive Design */
 @media (max-width: 600px) {
     header {
-        flex-direction: column;
-        justify-content: center;
-        align-items: flex-start;
+        height: auto;
         padding: 20px;
     }
 
@@ -218,5 +161,8 @@ button:hover {
         width: 100%;
     }
 }
+
+
+
 
 
