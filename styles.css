@@ -22,6 +22,7 @@ header h1 {
 
 nav {
     margin-top: 10px;
+    position: right;
 }
 
 nav ul {
@@ -33,14 +34,13 @@ nav ul {
 }
 
 nav ul li {
-    display: inline;
+    display: inline-block;
 }
 
 nav ul li a {
     color: white;
     text-decoration: none;
-    padding: 10px 15px;
-    border-radius: 5px;
+    padding: 0 15px;
     transition: background-color 0.3s;
 }
 
