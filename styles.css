@@ -33,11 +33,11 @@ nav ul {
 }
 
 nav ul li {
-    display: inline;
+    display: inline-block;
 }
 
 nav ul li a {
-    color: white;
+    color: #fff;
     text-decoration: none;
     padding: 10px 15px;
     border-radius: 5px;
