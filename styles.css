@@ -7,6 +7,48 @@ body {
     text-align: center;
 }
 
+.wrapper{
+	width:1170px;
+	margin:0 auto;
+}
+		
+header{
+	height:60px;
+	background:#030407;
+	padding:0 50px;
+}
+
+.logo{
+	width:30%;
+    float:left;
+	color:#fff;
+	font-weight:bold;
+	line-height:60px;
+	font-size:25px;
+}
+		
+nav{
+	width:68%;
+	float:right;
+}
+		
+nav ul{
+	list-style:none;
+	float:right;
+}
+		
+nav ul li{
+	display:inline-block;
+}
+		
+nav ul li a{
+	text-decoration:none;
+	color:#fff
+	font-weight:bold;
+	margin:0 10px;
+	line-height:60px;
+}
+
 header {
     background-color: #4CAF50;
     color: white;
