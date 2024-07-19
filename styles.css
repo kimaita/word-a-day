@@ -2,38 +2,33 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #000;
-    color: #fff;
+    background-color: #f9f9f9;
+    color: #333;
     text-align: center;
 }
 
 header {
-    background: url('header-background.jpg') no-repeat center center;
-    background-size: cover;
+    background-color: #4CAF50;
     color: white;
     padding: 20px;
-    position: relative;
-    height: 300px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 header h1 {
     margin: 0;
-    position: absolute;
-    top: 20px;
-    right: 20px;
 }
 
 nav {
-    position: absolute;
-    top: 20px;
-    left: 20px;
+    margin-top: 10px;
 }
 
 nav ul {
     list-style: none;
     padding: 0;
-    margin: 0;
     display: flex;
+    justify-content: center;
     gap: 10px;
 }
 
@@ -72,7 +67,6 @@ li {
     margin: 10px;
     padding: 10px;
     border-radius: 5px;
-    color: #333;
 }
 
 blockquote {
@@ -81,7 +75,6 @@ blockquote {
     margin: 20px;
     padding: 10px;
     border-left: 5px solid #4CAF50;
-    color: #333;
 }
 
 form {
@@ -98,7 +91,6 @@ form input, form textarea {
     max-width: 400px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    color: #333;
 }
 
 button {
@@ -127,19 +119,7 @@ button:hover {
 /* Responsive Design */
 @media (max-width: 600px) {
     header {
-        height: auto;
-        padding: 20px;
-    }
-
-    header h1 {
-        position: static;
-        align-self: flex-end;
-    }
-
-    nav {
-        position: static;
-        align-self: flex-start;
-        margin-bottom: 10px;
+        padding: 15px;
     }
 
     .content {
@@ -155,8 +135,6 @@ button:hover {
         width: 100%;
     }
 }
-
-
 
 
 
