@@ -1,6 +1,9 @@
 *{
 	margin:0;
 	padding:0;
+	list-style: none;
+	text-decoration: none;
+	transition: all .6s ease-in-out;
 }
 
 body {
@@ -21,6 +24,8 @@ header{
 	height:60px;
 	background:#030407;
 	padding:0 50px;
+	justify-content: space-between;
+	width: 100%;
 }
 
 .logo{
