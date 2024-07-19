@@ -77,13 +77,13 @@ nav ul li a.cta-nav {
 
 .content {
     	padding: 20px;
-	color: #000;
 }
 
 .content p {
 	font-size:18px;
 	line-height:1.7;
 	margin-bottom:20px;
+	color: #000;
 }
 
 h2 {
