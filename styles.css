@@ -14,7 +14,7 @@ body {
 
 header {
     background: url('header-background.jpg') no-repeat center center;
-    background-size: cover;
+    background: #030407;
     color: #fff;
     padding: 0 50px;
     position: relative;
