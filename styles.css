@@ -64,8 +64,9 @@ ul {
 
 li {
     background-color: #000;
-    margin: 10px;
-    border-radius: 5px;
+    margin: 0;
+    padding: 10px 0;
+    border-radius: 0;
     color: white;
 }
 
