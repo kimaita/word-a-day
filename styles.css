@@ -65,17 +65,15 @@ ul {
 li {
     background-color: #000;
     margin: 10px;
-    padding: 10px;
     border-radius: 5px;
     color: white;
 }
 
 blockquote {
     font-style: italic;
-    background-color: #f1f1f1;
+    background-color: #000;
     margin: 20px;
     padding: 10px;
-    border-left: 5px solid #4CAF50;
 }
 
 form {
