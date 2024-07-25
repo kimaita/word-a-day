@@ -138,7 +138,7 @@ body {
     padding: 16px 48px;
 }
 
-.word-title {
+#word-title {
     font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
     font-weight: 600;
@@ -147,17 +147,25 @@ body {
     margin: 8px 0px;
 }
 
-.word-ipa {
+.word-pronunciation {
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+}
+
+#word-ipa {
     font-family: "Charis SIL", serif;
     font-weight: 400;
     font-style: normal;
     font-size: 28px;
 }
 
+#word_audio {
+    display: block;
+}
+
 .icon {
-    width: 28px;
-    height: 28px;
-    color: #868686;
+    color: #504f4f;
 }
 
 .definitions {
@@ -180,7 +188,7 @@ body {
 .word-pos {
     font-style: italic;
     color: #4d4a4a;
-    width: 120px;
+    width: 180px;
     text-align: end;
 }
 
@@ -201,4 +209,16 @@ body {
     list-style-type: disc;
     list-style-position: inside;
     font-size: 20px;
+}
+
+#next {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    /* border: 1px solid #4d4a4a;
+    border-radius: 50%; */
+}
+
+#next-word {
+    padding: 8px;
 }
