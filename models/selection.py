@@ -29,6 +29,7 @@ class DaySelection:
         filename = f'{self.date.strftime("%Y_%m_%d")}-wordlist.json'
         self.file = os.path.join(self._cache_dir, filename)
         self.words = []
+        self.definitions = {}
         if os.path.exists(self.file):
             self.load_json_file()
         else:
@@ -50,6 +51,7 @@ class DaySelection:
         words = storage.load_day_words(self.date)
         if words:
             self.words = words
+            self.fetch_definitions()
 
     def make_selection(self):
         if self.date < self._earliest:
@@ -93,9 +95,10 @@ class DaySelection:
         idx = int(idx)
         if self.words:
             word = self.words[idx]
-            if isinstance(word, dict):
+            if not isinstance(word, str):
                 word = word["title"]
-            return self.definitions[word]
+
+            return self.definitions.get(word)
 
 
 def make_request(word, api, session):
